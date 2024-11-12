@@ -7,7 +7,7 @@ def get_user_choice(question, options):
             choice = int(input("Выберите номер: "))
             if 1 <= choice <= len(options):
                 return choice
-            print("Пожалуйста, выберите существующий вариант.")
+            print("Пожалуйста, выберите существующий вариант в программе.")
         except ValueError:
             print("Пожалуйста, введите число.")
 
