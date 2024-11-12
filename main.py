@@ -4,7 +4,7 @@ def get_user_choice(question, options):
         for i, option in enumerate(options, 1):
             print(f"{i}. {option}")
         try:
-            choice = int(input("Выберите номер: "))
+            choice = int(input("Выберите номер из предложенных: "))
             if 1 <= choice <= len(options):
                 return choice
             print("Пожалуйста, выберите существующий вариант.")
